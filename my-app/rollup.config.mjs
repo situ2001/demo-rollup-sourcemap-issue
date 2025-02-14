@@ -16,7 +16,7 @@ export default {
     name: "foo",
   },
   plugins: [
-    commonjs(),
+    // commonjs(),
 
     nodeResolve({
       browser: true,
