@@ -38,7 +38,7 @@ export default {
       presets: ["@babel/env"],
 
       // !! If we don't set this to false, an indirect source map will be generated
-      inputSourceMap: false,
+      // inputSourceMap: false,
     }),
   ],
 }
