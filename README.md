@@ -19,7 +19,6 @@ Then, use one of the following websites to open the `index.js` file:
 
 You will see that the source code mapping is incorrect. Since
 
-```md
-Expected: babel transformed code ==sourcemap==> input code(in this case, js dist from `foo` package)
-Actual: babel transformed code ==sourcemap==> source code of input code(in this case, ts code from `foo` package), not input code itself
-```
+- Expected: babel transformed code ==sourcemap==> input code(in this case, js dist from `foo` package)
+- Actual: babel transformed code ==sourcemap==> source code of input code(in this case, ts code from `foo` package), not input code itself
+
