@@ -2,6 +2,8 @@
 
 This is a demo of the rollup sourcemap issue introduced in rollup babel plugin with `inputSourceMap: true` option.
 
+> for information about the option, please refer to https://babeljs.io/docs/options#inputsourcemap
+
 ## Steps to reproduce
 
 Build
