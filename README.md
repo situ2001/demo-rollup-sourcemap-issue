@@ -24,3 +24,6 @@ You will see that the source code mapping is incorrect. Since
 - Expected: babel transformed code ==sourcemap==> input code(in this case, js dist from `foo` package)
 - Actual: babel transformed code ==sourcemap==> source code of input code(in this case, ts code from `foo` package), not input code itself
 
+## How to fix
+
+Go to `./my-app/rollup.config.mjs` and set `inputSourceMap: false` in the babel plugin options.
