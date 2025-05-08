@@ -1,6 +1,4 @@
 import typescript from '@rollup/plugin-typescript';
-import babel from '@rollup/plugin-babel';
-import nodeResolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 
 /**
@@ -13,7 +11,7 @@ export default {
     format: 'esm',
     preserveModules: true,
     preserveModulesRoot: 'src',
-    sourcemap: false,
+    sourcemap: true,
   },
   plugins: [
     commonjs(),
